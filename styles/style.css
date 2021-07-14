@@ -282,5 +282,9 @@ width: 100%;
 
 
  /* Footer-style */
-
+ footer{
+    display: flex;
+   align-items: center;
+   margin-left: 156px;
+}
 }

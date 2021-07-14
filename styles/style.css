@@ -57,21 +57,6 @@ main{
     text-decoration: none;
     color: white;
 }
-.butto{
-    text-decoration: none;
-    background-color: #E02C6D;
-    color: white;
-    width: 168px;
-    height: 44px;
-    margin-left: 156px;
-    font-size: 40px;
-    font-weight: 500px;
-    padding-left: 24px;
-    padding-right: 56px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-}
 .banner-image{
     margin-left: 126px;
 }
@@ -207,14 +192,27 @@ height: 110px;
 
     /* banner */
       .top-banner{
-        width: 1300px;
+     width: auto;
+     height: auto;
         display: flex;
         flex-direction: column;
-        align-items:center;
       }
       .banner-text{
-        font-size: 64px;
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+        margin-left: 16px;
 
+      }
+      .banner-image{
+          width:auto;
+           height: auto;
+           margin-left: 10px;
+
+      }
+      .banner-image img{
+        width: 400px;
+        height: 400px;
       }
 
 
@@ -225,32 +223,45 @@ height: 110px;
          grid-template-columns: repeat(1,  1fr);
      }
 
-article{
-    flex-direction: column;
-   align-content: center;
-
-
-}
-.blog{
-    margin-left: 15px;
-}
+    /* Button */
+    .button{
+        margin-left: 15px;
+    }
 
 
 /* highlight */
+article{
+    flex-direction: column;
+   align-content: center;
+}
+.blog-title{
+    padding-left: 16px;
+}
+.blog{
+    margin-left: 20px;
+    width: 329px;
+
+}
+.blog img{
+    width: 329px;
+height: 299px;
+margin-left: 16px;
+margin-top: 20px;
+}
+
+
+/* news */
 
 .all-news{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin-left: 400px;
-    margin-top: -200px;
+    width: 300px;
 }
- .newses{
-     height: 500px;
 
- }
  .news{
-margin: 30px;
+     margin-top: 100px;
+     width: 300px;
  }
 
 
@@ -272,12 +283,15 @@ width: 100%;
 
     margin-top: 300px;
     justify-items: center;
-    margin-left: 480px;
-    margin-bottom: 480px;
+    margin-left: 80px;
+    margin-bottom: 450px;
  }
 
  .team{
      margin-top: 30px;
+ }
+ .teame-title{
+     margin-left: 16px;
  }
 
 
@@ -285,6 +299,14 @@ width: 100%;
  footer{
     display: flex;
    align-items: center;
-   margin-left: 156px;
+   margin-left: 10px;
+   
+}
+.contacts img{
+    width: 370px;
+}
+.social{
+    width: 170px;
+height: 32px;
 }
 }

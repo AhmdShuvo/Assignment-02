@@ -40,6 +40,8 @@ main{
     background-color: #E02C6D;
     display: flex;
     margin-left: 30px;
+    align-items: center;
+    margin-left: 156px;
 }
 .text a{
     text-decoration: none;

@@ -287,11 +287,18 @@ width: 100%;
     margin-bottom: 450px;
  }
 
+ .teams{
+
+    width: 300px;
+ }
  .team{
      margin-top: 30px;
  }
+ .teams img{
+     width: 100px;
+ }
  .teame-title{
-     margin-left: 16px;
+     margin-left: 1px;
  }
 
 

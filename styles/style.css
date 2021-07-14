@@ -106,6 +106,7 @@ height: 427px;
 
   .newses{
       display: flex;
+
   }
   .news{
 
@@ -152,8 +153,12 @@ margin-bottom: 10px;
 
 
 /* Footer-style */
-.contacts{
+
+.footer{
     margin-top: 80px;
+}
+.contacts{
+   
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -173,6 +178,11 @@ height: 110px;
 
 /* Media-Queries */
 @media only screen and (max-width:688px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
       .top-banner{
         width: 1300px;
         display: flex;
@@ -186,10 +196,54 @@ height: 110px;
 
 
 
+
      .players{
          display:grid;
          grid-template-columns: repeat(1,  1fr);
-         align-content: center;
      }
     
+article{
+    flex-direction: column;
+   align-content: center;
+
+
+}
+.blog{
+    margin-left: 15px;
+}
+
+
+/* highlight */
+ .newses{
+     height: 500px;
+
+ }
+ .news{
+margin: 30px;
+ }
+
+
+ .news img{
+     height: 200px;
+      width: 480px;
+ }
+
+
+
+ /* ranking-style */
+
+ .top-teams{
+
+    margin-top: 300px;
+    justify-items: center;
+    margin-left: 200px;
+    margin-bottom: 480px;
+ }
+
+ .team{
+     margin-top: 30px;
+ }
+
+ /* Footer-style */
+
 }

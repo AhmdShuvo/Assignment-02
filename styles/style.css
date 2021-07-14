@@ -109,11 +109,12 @@ main{
     height: 256px;
 }
 
-/*--------------- article--------------- */
+/*--------------- highlight-style--------------- */
 article{
     margin-top: 165px;
     display: flex;
     margin-bottom: 158px;
+
 }
 .blog{
     width: 469px;
@@ -128,19 +129,19 @@ height: 427px;
 }
   /* Newses-style */
 
-  .newses{
+ .all-news{
       display: flex;
+
 
   }
   .news{
-
     width: 469px;
     height: 309px;
     margin-left: 30px;
   }
   .news img{
-    width: 480px;
-    height: 427px;
+    width: 250px;
+    height: 250px;
     border-radius: 20px;
 
   }
@@ -236,6 +237,14 @@ article{
 
 
 /* highlight */
+
+.all-news{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 400px;
+    margin-top: -200px;
+}
  .newses{
      height: 500px;
 
@@ -246,19 +255,24 @@ margin: 30px;
 
 
  .news img{
-     height: 200px;
-      width: 480px;
+     height: 250px;
+      width: 250px;
  }
 
 
 
  /* ranking-style */
 
+.title{
+
+width: 100%;
+    margin-right: 500px;
+ }
  .top-teams{
 
     margin-top: 300px;
     justify-items: center;
-    margin-left: 200px;
+    margin-left: 480px;
     margin-bottom: 480px;
  }
 
